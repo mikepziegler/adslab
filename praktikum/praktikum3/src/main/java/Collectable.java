@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface Collectable {
+
+public interface Collectable {
+    void setMark(boolean b);
+    boolean isMarked();
 }

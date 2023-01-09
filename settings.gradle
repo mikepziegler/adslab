@@ -1,2 +1,4 @@
 rootProject.name = 'adslab'
+include 'praktikum:praktikum3'
+findProject(':praktikum:praktikum3')?.name = 'praktikum3'
 
